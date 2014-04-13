@@ -11,7 +11,7 @@ GIT
 
 GIT
   remote: git://github.com/tarcieri/http.git
-  revision: af63d6a01dbd8650ae8fb6237e9ffcd22d36cd7a
+  revision: 57c230e9c1685fa55ac3217141ad9d2b4a38fef6
   specs:
     http (0.6.0)
       http_parser.rb (~> 0.6.0)
@@ -25,11 +25,14 @@ GEM
       celluloid (>= 0.15.0)
       nio4r (>= 0.5.0)
     http_parser.rb (0.6.0)
+    http_parser.rb (0.6.0-java)
     nio4r (1.0.0)
+    nio4r (1.0.0-java)
     timers (1.1.0)
     websocket_parser (0.1.6)
 
 PLATFORMS
+  java
   ruby
 
 DEPENDENCIES
